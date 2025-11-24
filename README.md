@@ -300,7 +300,7 @@ FOR EVERY DISPUTE, THERE’S A CURE
 </section>
 
 <footer>
-    © 2025 Legal Hospital – Adv. Mohd Meraj
+    © 2025 Legal Hospital – Mohd Meraj
 </footer>
 
 </body>
