@@ -219,7 +219,7 @@ FOR EVERY DISPUTE, THERE’S A CURE
       </div>
       <div class="logo-text">
         <div class="logo-main">Legal Hospital</div>
-        <div class="logo-sub">Adv. Mohd Meraj · Advocate</div>
+        <div class="logo-sub">Adv. Mohd Meraj ·</div>
       </div>
     </div>
   </div>
@@ -295,7 +295,7 @@ FOR EVERY DISPUTE, THERE’S A CURE
     <div class="social-links">
         <a href="#" title="Facebook"><i class="fa-brands fa-facebook"></i></a>
         <a href="#" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
-        <a href="https://wa.me/916386420246" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="https://wa.me/916386420346" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
     </div>
 </section>
 
