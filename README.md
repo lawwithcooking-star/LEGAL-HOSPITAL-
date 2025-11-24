@@ -1,5 +1,5 @@
 # legalhospital
-Official website files for Legal Hospital – Adv. Mohd Meraj
+Official website files for Legal Hospital 
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,34 +16,69 @@ Official website files for Legal Hospital – Adv. Mohd Meraj
         color: #222;
     }
 
-    /* Header */
+    /* ===== HEADER + LOGO ===== */
     header {
         background: #0A2A43;
-        padding: 35px 20px;
-        text-align: center;
+        padding: 20px 15px;
         color: white;
-        animation: fadeIn 1.5s ease-in-out;
     }
 
-    /* Logo */
+    .header-inner {
+        max-width: 1100px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+
     .logo {
-        font-size: 40px;
-        margin-bottom: 10px;
-        font-weight: bold;
+        display: flex;
+        align-items: center;
+        gap: 14px;
+    }
+
+    .logo-badge {
+        width: 58px;
+        height: 58px;
+        border-radius: 50%;
+        border: 2px solid #4FC3F7;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgba(255,255,255,0.06);
+        box-shadow: 0 0 0 3px rgba(79,195,247,0.25);
+    }
+
+    .logo-badge i {
+        font-size: 30px;
+        color: #FFFFFF;
+    }
+
+    .logo-text {
+        display: flex;
+        flex-direction: column;
+        line-height: 1.2;
+    }
+
+    .logo-main {
+        font-size: 22px;
+        font-weight: 700;
         letter-spacing: 2px;
+        text-transform: uppercase;
     }
 
-    .logo i {
-        margin-right: 10px;
-        color: #4FC3F7;
+    .logo-sub {
+        font-size: 13px;
+        opacity: 0.85;
     }
 
-    /* Navigation */
+    /* ===== NAVBAR ===== */
     nav {
         background: #12385A;
-        padding: 12px 20px;
+        padding: 10px 20px;
         text-align: center;
-        animation: fadeIn 2s;
     }
 
     nav a {
@@ -51,14 +86,14 @@ Official website files for Legal Hospital – Adv. Mohd Meraj
         margin: 0 20px;
         font-weight: 600;
         text-decoration: none;
-        font-size: 17px;
+        font-size: 16px;
     }
 
     nav a:hover {
         color: #4FC3F7;
     }
 
-    /* Hero Section */
+    /* ===== HERO ===== */
     .hero {
         background: url('https://images.unsplash.com/photo-1589820296156-2454bb8a6ad9') center/cover no-repeat;
         padding: 150px 20px;
@@ -77,7 +112,7 @@ Official website files for Legal Hospital – Adv. Mohd Meraj
         font-size: 22px;
     }
 
-    /* Sections */
+    /* ===== SECTIONS ===== */
     .section {
         padding: 50px 20px;
         max-width: 1100px;
@@ -85,7 +120,7 @@ Official website files for Legal Hospital – Adv. Mohd Meraj
         animation: slideUp 1s ease;
     }
 
-    /* Services Grid */
+    /* ===== SERVICES ===== */
     .services {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -111,7 +146,7 @@ Official website files for Legal Hospital – Adv. Mohd Meraj
         margin-bottom: 10px;
     }
 
-    /* Contact Box */
+    /* ===== CONTACT ===== */
     .contact-box {
         background: white;
         padding: 25px;
@@ -122,7 +157,7 @@ Official website files for Legal Hospital – Adv. Mohd Meraj
         font-size: 18px;
     }
 
-    /* Social Icons */
+    /* ===== SOCIAL ICONS ===== */
     .social-links {
         text-align: center;
         margin-top: 20px;
@@ -139,7 +174,7 @@ Official website files for Legal Hospital – Adv. Mohd Meraj
         color: #4FC3F7;
     }
 
-    /* Footer */
+    /* ===== FOOTER ===== */
     footer {
         background: #0A2A43;
         color: white;
@@ -148,7 +183,7 @@ Official website files for Legal Hospital – Adv. Mohd Meraj
         margin-top: 40px;
     }
 
-    /* Animations */
+    /* ===== ANIMATIONS ===== */
     @keyframes fadeIn {
         from {opacity: 0;}
         to {opacity: 1;}
@@ -159,27 +194,52 @@ Official website files for Legal Hospital – Adv. Mohd Meraj
         to {opacity: 1; transform: translateY(0);}
     }
 
+    /* Mobile tweaks */
+    @media (max-width: 600px) {
+        .logo-main {
+            font-size: 18px;
+        }
+        .hero h1 {
+            font-size: 34px;
+        }
+        .hero p {
+            font-size: 18px;
+        }
+    }
 </style>
 </head>
 
 <body>
 
+<!-- ===== HEADER WITH LOGO ===== -->
 <header>
-    <div class="logo"><i class="fa-solid fa-scale-balanced"></i>LEGAL HOSPITAL</div>
-    <p>Where Legal Issues Are Treated With Care</p>
+  <div class="header-inner">
+    <div class="logo">
+      <div class="logo-badge">
+        <i class="fa-solid fa-scale-balanced"></i>
+      </div>
+      <div class="logo-text">
+        <div class="logo-main">Legal Hospital</div>
+        <div class="logo-sub">Adv. Mohd Meraj · Advocate</div>
+      </div>
+    </div>
+  </div>
 </header>
 
+<!-- ===== NAVBAR ===== -->
 <nav>
     <a href="#about">About</a>
     <a href="#services">Services</a>
     <a href="#contact">Contact</a>
 </nav>
 
+<!-- ===== HERO ===== -->
 <section class="hero">
     <h1>Adv. Mohd Meraj</h1>
     <p>Civil • Criminal • Arbitration • All Legal Disputes</p>
 </section>
 
+<!-- ===== ABOUT ===== -->
 <section id="about" class="section">
     <h2>About Me</h2>
     <p>
@@ -190,11 +250,11 @@ Official website files for Legal Hospital – Adv. Mohd Meraj
     </p>
 </section>
 
+<!-- ===== SERVICES ===== -->
 <section id="services" class="section">
     <h2>Legal Services</h2>
 
     <div class="services">
-
         <div class="card">
             <i class="fa-solid fa-landmark"></i>
             <h3>Civil Cases</h3>
@@ -221,6 +281,7 @@ Official website files for Legal Hospital – Adv. Mohd Meraj
     </div>
 </section>
 
+<!-- ===== CONTACT ===== -->
 <section id="contact" class="section">
     <h2>Contact</h2>
     <div class="contact-box">
