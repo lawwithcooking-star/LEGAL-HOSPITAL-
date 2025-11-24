@@ -242,7 +242,7 @@ FOR EVERY DISPUTE, THERE’S A CURE
 <section id="about" class="section">
     <h2>About Me</h2>
     <p>
-        I am <b> Mohd Meraj</b>, practicing in <b>Lucknow</b>, providing professional 
+        I am <b> Mohd Meraj khan</b>, practicing in <b>Lucknow</b>, providing professional 
         legal solutions across civil, criminal, and arbitration matters.  
         With dedication, accuracy, and commitment to justice, I aim to deliver 
         reliable legal care — just like a hospital heals patients.
@@ -284,12 +284,12 @@ FOR EVERY DISPUTE, THERE’S A CURE
 <section id="contact" class="section">
     <h2>Contact</h2>
     <div class="contact-box">
-        <p><b>Name:</b>  Mohd Meraj</p>
-        <p><b>Phone:</b> <a href="tel:6386420246">6386420246</a></p>
+        <p><b>Name:</b>  Mohd Meraj khan</p>
+        <p><b>Phone:</b> <a href="tel:6386420346">6386420346</a></p>
         <p><b>Location:</b> Lucknow, Uttar Pradesh</p>
         <p><b>Email:</b> 
             mohdmerajkhanalig@gmail.com</p> 
-            legalhospital@gmail.com</p>
+            legalhospital@gmail.com
     </div>
 
     <div class="social-links">
@@ -300,7 +300,7 @@ FOR EVERY DISPUTE, THERE’S A CURE
 </section>
 
 <footer>
-    © 2025 Legal Hospital – Mohd Meraj
+    © 2025 Legal Hospital – Mohd Meraj khan
 </footer>
 
 </body>
