@@ -234,7 +234,7 @@ FOR EVERY DISPUTE, THERE’S A CURE
 
 <!-- ===== HERO ===== -->
 <section class="hero">
-    <h1>Adv. Mohd Meraj</h1>
+    <h1> Mohd Meraj Khan</h1>
     <p>Civil • Criminal • Arbitration • All Legal Disputes</p>
 </section>
 
