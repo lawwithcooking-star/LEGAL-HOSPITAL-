@@ -1,4 +1,4 @@
-# legalhospital
+# LEGAL HOSPITAL
 Official website files for Legal Hospital 
 <!DOCTYPE html>
 <html lang="en">
